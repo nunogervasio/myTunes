@@ -19,4 +19,30 @@ export const Title = styled.h1``;
 
 export const SubTitle = styled.h2``;
 
+export const H3Title = styled.h3``;
+
 export const Header = styled.header``;
+
+export const Image = styled.img``;
+
+export const Button = styled.button`
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+  background: var(--primary-color);
+  :hover {
+    background: var(--primary-color-hover);
+  }
+`;
+export const ButtonA = styled.a`
+  cursor: pointer;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+  background: var(--primary-color);
+  :hover {
+    background: var(--primary-color-hover);
+  }
+`;

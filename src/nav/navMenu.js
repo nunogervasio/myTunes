@@ -66,20 +66,20 @@ class NavMenu extends Component {
           menu={
             <Menu>
               <h1>
-                <a href="">myTunes</a>
+                <a href="#showcase">myTunes</a>
               </h1>
               <ul>
                 <li>
-                  <a href="">Home</a>
+                  <a href="#showcase">Overview</a>
                 </li>
                 <li>
-                  <a href="">About</a>
+                  <a href="#music">Music</a>
                 </li>
                 <li>
-                  <a href="">Team</a>
+                  <a href="#video">Video</a>
                 </li>
                 <li>
-                  <a href="">Contact</a>
+                  <a href="#gift-cards">Gift Cards</a>
                 </li>
               </ul>
             </Menu>

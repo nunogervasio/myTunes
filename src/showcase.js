@@ -57,7 +57,7 @@ const StyledSubTitle = styled(SubTitle)`
 const StyledHeader = styled(Header)``;
 const Showcase = () => {
   return (
-    <StyledSection>
+    <StyledSection id="showcase">
       <StyledContainer>
         <StyledTitle>myTunes</StyledTitle>
         <StyledSubTitle>

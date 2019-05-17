@@ -2,6 +2,7 @@ import React from "react";
 import { NavMenu } from "./nav";
 import styled from "styled-components";
 import Showcase from "./showcase";
+import MusicSection from "./musicSection";
 import GlobalStyle from "./GlobalStyle";
 import "./App.css";
 
@@ -10,7 +11,7 @@ function App() {
     <div>
       <NavMenu />
       <Showcase />
-      <Showcase />
+      <MusicSection />
       <GlobalStyle />
     </div>
   );
