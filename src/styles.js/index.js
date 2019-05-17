@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 2rem 0;
+  background: ${props => (props.light ? "var(--light-color);" : null)}
+  color: ${props => (props.light ? "#333;" : null)}
 `;
 
 export const Container = styled.div`
@@ -37,12 +39,13 @@ export const Button = styled.button`
 `;
 export const ButtonA = styled.a`
   cursor: pointer;
-  border: none;
   padding: 1rem;
   color: #fff;
   display: inline-block;
-  background: var(--primary-color);
-  :hover {
-    background: var(--primary-color-hover);
-  }
+  background: ${props =>
+      props.secondary ? "var(--secondary-color);" : "var(--primary-color);"}
+    ${props =>
+      props.secondary
+        ? `:hover{background: var(--secondary-color-hover);}`
+        : `:hover {background: var(--primary-color-hover);}`};
 `;
