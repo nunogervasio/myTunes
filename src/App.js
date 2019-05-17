@@ -6,6 +6,7 @@ import MusicSection from "./musicSection";
 import VideoSection from "./videoSection";
 import EntertainmentSection from "./entertainmentSection";
 import GiftCardsSection from "./giftCardsSection";
+import FooterSection from "./footerSection";
 import GlobalStyle from "./GlobalStyle";
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
       <VideoSection />
       <EntertainmentSection />
       <GiftCardsSection />
+      <FooterSection />
       <GlobalStyle />
     </div>
   );
