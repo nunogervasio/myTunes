@@ -5,6 +5,7 @@ import Showcase from "./showcase";
 import MusicSection from "./musicSection";
 import VideoSection from "./videoSection";
 import EntertainmentSection from "./entertainmentSection";
+import GiftCardsSection from "./giftCardsSection";
 import GlobalStyle from "./GlobalStyle";
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <MusicSection />
       <VideoSection />
       <EntertainmentSection />
+      <GiftCardsSection />
       <GlobalStyle />
     </div>
   );
