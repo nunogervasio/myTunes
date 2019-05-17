@@ -14,9 +14,9 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   font-family: "PT Sans", sans-serif;
-  background-color: #252529;
+  ${"" /* background-color: #252529; */}
   margin: 0;
-  color: #fff;
+  ${"" /* color: #fff; */}
   line-height: 1.6;
 }
 
