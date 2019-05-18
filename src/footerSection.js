@@ -1,20 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  Section,
-  Container,
-  SubTitle,
-  Paragraph,
-  H3Title,
-  Image,
-  ButtonA
-} from "./styles.js/index.js";
+import { Section, Container } from "./styles.js/index.js";
 
 const StyledSection = styled(Section)`
   padding: 0 0;
 `;
-
-const StyledContainer = styled(Container)``;
 
 const FooterColumns = styled.div`
   display: grid;
@@ -47,7 +37,7 @@ const FooterSection = () => {
   return (
     <footer>
       <StyledSection>
-        <StyledContainer>
+        <Container>
           <FooterColumns>
             <ul>
               <li>Shop & Learn</li>
@@ -125,7 +115,7 @@ const FooterSection = () => {
               </li>
             </ul>
           </FooterColumns>
-        </StyledContainer>
+        </Container>
         <FooterBottom>Copyright &copy; 2019 Orange myTunes</FooterBottom>
       </StyledSection>
     </footer>

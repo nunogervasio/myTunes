@@ -1,30 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import img from "./img/section-bg.jpg";
-import {
-  Section,
-  Container,
-  SubTitle,
-  Paragraph,
-  H3Title,
-  Image,
-  ButtonA
-} from "./styles.js/index.js";
+import { Section, Container, Paragraph, H3Title } from "./styles.js/index.js";
 
 const StyledSection = styled(Section)`
   background: url(${img}) no-repeat bottom/cover;
   padding: 10rem 0;
 `;
 
-const StyledContainer = styled(Container)``;
-
 const StyledParagraph = styled(Paragraph)`
   font-size: 1.3rem;
-`;
-
-const StyledSubTitle = styled(SubTitle)`
-  font-size: 2.5rem;
-  margin: 0;
 `;
 
 const StyledH3Title = styled(H3Title)`
@@ -34,7 +19,7 @@ const StyledH3Title = styled(H3Title)`
 const EntertainmentSection = () => {
   return (
     <StyledSection id="entertainment">
-      <StyledContainer>
+      <Container>
         <StyledH3Title>
           A world of entertainment. Available wherever you are.
         </StyledH3Title>
@@ -46,7 +31,7 @@ const EntertainmentSection = () => {
           recusandae minima quo aperiam quam, excepturi quasi totam ad quas?
           Ipsam laudantium soluta delectus!
         </StyledParagraph>
-      </StyledContainer>
+      </Container>
     </StyledSection>
   );
 };

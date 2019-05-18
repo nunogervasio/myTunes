@@ -7,12 +7,8 @@ import {
   Container,
   SubTitle,
   Paragraph,
-  H3Title,
-  Image,
-  ButtonA
+  Image
 } from "./styles.js/index.js";
-
-const StyledSection = styled(Section)``;
 
 const StyledContainer = styled(Container)`
   display: flex;
@@ -22,10 +18,6 @@ const StyledContainer = styled(Container)`
     flex-direction: column;
   }
 `;
-
-const StyledParagraph = styled(Paragraph)``;
-
-const StyledSubTitle = styled(SubTitle)``;
 
 const Link = styled.a`
   color: var(--secondary-color);
@@ -39,30 +31,28 @@ const LeftSide = styled.div`
 `;
 const GiftCardsSection = () => {
   return (
-    <StyledSection id="gift-cards" light>
+    <Section id="gift-cards" light>
       <StyledContainer>
         <LeftSide>
           <Image src={img} />
         </LeftSide>
         <RightSide>
-          <StyledSubTitle>Gift Cards</StyledSubTitle>
-          <StyledParagraph>
+          <SubTitle>Gift Cards</SubTitle>
+          <Paragraph>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
             expedita tempore quasi omnis a aut et totam illo fuga accusamus
             dolorum vero, ut harum consectetur. Minima molestias officiis culpa
             non sed dicta itaque. Et aliquam illo obcaecati molestias veritatis
             porro.
-          </StyledParagraph>
-          <StyledParagraph>
-            Already have an Orange MyTunes Music Gift Card?
-          </StyledParagraph>
+          </Paragraph>
+          <Paragraph>Already have an Orange MyTunes Music Gift Card?</Paragraph>
           <hr />
           <Link href="#">
             <FaChevronRight /> Redeem
           </Link>
         </RightSide>
       </StyledContainer>
-    </StyledSection>
+    </Section>
   );
 };
 

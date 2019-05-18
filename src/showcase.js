@@ -2,14 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import img from "./img/showcase.jpg";
 
-import {
-  Section,
-  Container,
-  Title,
-  SubTitle,
-  Paragraph,
-  Header
-} from "./styles.js";
+import { Section, Container, Title, SubTitle, Paragraph } from "./styles.js";
 
 const StyledSection = styled(Section)`
   margin: 0;
@@ -54,7 +47,6 @@ const StyledSubTitle = styled(SubTitle)`
   }
 `;
 
-const StyledHeader = styled(Header)``;
 const Showcase = () => {
   return (
     <StyledSection id="showcase">

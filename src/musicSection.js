@@ -12,10 +12,6 @@ import {
   ButtonA
 } from "./styles.js/index.js";
 
-const StyledSection = styled(Section)``;
-
-const StyledContainer = styled(Container)``;
-
 const StyledParagraph = styled(Paragraph)`
   font-size: 1.3rem;
 `;
@@ -31,8 +27,8 @@ const StyledH3Title = styled(H3Title)`
 
 const MusicSection = () => {
   return (
-    <StyledSection id="music">
-      <StyledContainer>
+    <Section id="music">
+      <Container>
         <StyledSubTitle>
           <FaMusic /> Music
         </StyledSubTitle>
@@ -49,8 +45,8 @@ const MusicSection = () => {
           Orange Music is available in myTunes, and for iOS and Android devices.
         </StyledParagraph>
         <Image src={img} />
-      </StyledContainer>
-    </StyledSection>
+      </Container>
+    </Section>
   );
 };
 

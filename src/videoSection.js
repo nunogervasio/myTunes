@@ -4,24 +4,14 @@ import img from "./img/mockup2.png";
 import {
   Section,
   Container,
-  SubTitle,
   Paragraph,
   H3Title,
   Image,
   ButtonA
 } from "./styles.js/index.js";
 
-const StyledSection = styled(Section)``;
-
-const StyledContainer = styled(Container)``;
-
 const StyledParagraph = styled(Paragraph)`
   font-size: 1.3rem;
-`;
-
-const StyledSubTitle = styled(SubTitle)`
-  font-size: 2.5rem;
-  margin: 0;
 `;
 
 const StyledH3Title = styled(H3Title)`
@@ -30,8 +20,8 @@ const StyledH3Title = styled(H3Title)`
 
 const VideoSection = () => {
   return (
-    <StyledSection id="video" light>
-      <StyledContainer>
+    <Section id="video" light>
+      <Container>
         <StyledH3Title>
           The movie and TV collection you always wished for. Granted.
         </StyledH3Title>
@@ -46,8 +36,8 @@ const VideoSection = () => {
         </StyledParagraph>
         <ButtonA secondary>Read More</ButtonA>
         <Image src={img} />
-      </StyledContainer>
-    </StyledSection>
+      </Container>
+    </Section>
   );
 };
 
