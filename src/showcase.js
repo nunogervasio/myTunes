@@ -20,7 +20,7 @@ const StyledSection = styled(Section)`
 const StyledContainer = styled(Container)`
   margin-top: 25vh;
   @media (max-width: 576px) {
-    margin-top: 12vh;
+    margin-top: 10vh;
   }
 `;
 

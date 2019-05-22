@@ -40,7 +40,7 @@ a {
     @media (max-width: 576px){
     padding-top: 45px;
   }
-  }
+}
 
 
 `;
