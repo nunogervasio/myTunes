@@ -29,6 +29,13 @@ a {
   color: #ccc;
 }
 
+#overview:before{
+  content: " ";
+  background: white;
+  display: block;
+  margin-top: -40px;
+  padding-top: 40px;
+}
 
 `;
 

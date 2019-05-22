@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 2rem 0;
-  background: ${props => (props.light ? "var(--light-color);" : "#252529;")}
-  color: ${props => (props.light ? "#333;" : "#fff")}
+  background: ${props => (props.light ? "var(--light-color);" : "#252529;")};
+  color: ${props => (props.light ? "#333;" : "#fff")};
 `;
+
 // NOTE: had to take default 'background' and 'color' properties out of Global 'body' styles
 // because it was not allowing the 'background' img  of 'entertainment' to show
 
