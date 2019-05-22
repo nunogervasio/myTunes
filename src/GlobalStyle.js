@@ -11,6 +11,10 @@ const GlobalStyle = createGlobalStyle`
   --secondary-color-hover: #143f85;
   --light-color: #f4f4f4;
 }
+*{
+  box-sizing:border-box
+
+}
 
 body {
   font-family: "PT Sans", sans-serif;
