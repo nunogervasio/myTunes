@@ -32,14 +32,16 @@ a {
   text-decoration: none;
   color: #ccc;
 }
+#music:target,
+#video:target,
+#showcase:target,
+#gift-cards:target {
+    padding-top: 51px;
+    @media (max-width: 576px){
+    padding-top: 45px;
+  }
+  }
 
-#overview:before{
-  content: " ";
-  background: white;
-  display: block;
-  margin-top: -40px;
-  padding-top: 40px;
-}
 
 `;
 

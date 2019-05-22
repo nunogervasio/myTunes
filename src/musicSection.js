@@ -12,6 +12,8 @@ import {
   ButtonA
 } from "./styles.js/index.js";
 
+const StyledSection = styled(Section)``;
+
 const StyledParagraph = styled(Paragraph)`
   font-size: 1.3rem;
 `;
@@ -27,7 +29,7 @@ const StyledH3Title = styled(H3Title)`
 
 const MusicSection = () => {
   return (
-    <Section id="music">
+    <StyledSection id="music">
       <Container>
         <StyledSubTitle>
           <FaMusic /> Music
@@ -46,7 +48,7 @@ const MusicSection = () => {
         </StyledParagraph>
         <Image src={img} />
       </Container>
-    </Section>
+    </StyledSection>
   );
 };
 
