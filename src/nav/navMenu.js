@@ -58,8 +58,8 @@ class NavMenu extends Component {
     return (
       <div>
         <ResponsiveMenu
-          menuOpenButton={<FaBars size={30} color="MediumPurple" />}
-          menuCloseButton={<FaWindowClose size={30} color="MediumPurple" />}
+          menuOpenButton={<FaBars size={30} color="#ccc" />}
+          menuCloseButton={<FaWindowClose size={30} color="#ccc" />}
           changeMenuOn="576px"
           largeMenuClassName="large-menu"
           smallMenuClassName="small-menu"
